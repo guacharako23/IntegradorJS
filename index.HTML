@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Integrador Front-End</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Tickets</h1>
+  <a href="#" onclick="mostrarSeccionTickets()">Tickets</a>
+  <div id="seccionTickets" style="display: none;">
+    <select id="categoria">
+      <option value="estudiante">Estudiante</option>
+      <option value="trainee">Trainee</option>
+      <option value="junior">Junior</option>
+    </select>
+    <button onclick="calcularTotal()">Resumen</button>
+    <div id="totalAPagar"></div>
+  </div>
+</body>
+</html>
